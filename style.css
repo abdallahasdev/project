@@ -1,0 +1,71 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: "Playwrite HU", cursive;
+}
+.ASlogo {
+  width: 90px;
+  display: inline;
+}
+nav {
+  height: 50px;
+  display: flex;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  justify-items: center;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(12, 12, 12);
+  margin: -8px -8px;
+  padding: 10px;
+  color: white;
+}
+ul li {
+  list-style-type: none;
+  margin: 5px;
+  padding: 5px;
+  float: right;
+}
+ul li a {
+  padding: 9px;
+  position: relative;
+  top: -14px;
+  text-decoration: none;
+  display: inline;
+  color: white;
+  padding: 0px 9px;
+}
+ul li a:hover {
+  background-color: rgba(40, 40, 40, 0.452);
+  border-radius: 9px;
+  padding: 9px 9px;
+}
+.landingPage {
+  text-align: center;
+  background-color: rgba(50, 125, 128, 0.356);
+  margin: -8px;
+  margin-top: -25px;
+  padding: 50px;
+  height: auto;
+}
+.productsPage {
+  text-align: center;
+  margin-top: 100px;
+  margin: 0px -50px;
+  background-color: rgb(172, 172, 172);
+}
+.producuts div {
+  background: #979797;
+  height: auto;
+  width: auto;
+  padding: 20px;
+  font-size: smaller;
+  border: solid black 1px;
+  display: inline-block;
+  margin: 10px;
+  margin-bottom: 50px;
+}
+.pimg {
+  height: 90px;
+}
