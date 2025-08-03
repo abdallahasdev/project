@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: rgba(50, 125, 128, 0.356);
   color: black;
   font-family: "Playwrite HU", cursive;
 }
@@ -11,7 +11,7 @@ nav {
   height: 50px;
   display: flex;
   position: sticky;
-  top: 0;
+  top: 0px;
   text-align: center;
   justify-items: center;
   justify-content: space-between;
@@ -43,29 +43,37 @@ ul li a:hover {
 }
 .landingPage {
   text-align: center;
-  background-color: rgba(50, 125, 128, 0.356);
+  background-color: ;
   margin: -8px;
   margin-top: -25px;
   padding: 50px;
   height: auto;
+    box-shadow: 10px 10px 10px ;
 }
 .productsPage {
+  padding: 0px 10px;
+  width: auto;
+  margin: auto;
   text-align: center;
-  margin-top: 100px;
-  margin: 0px -50px;
+  border-radius: 10px;
   background-color: rgb(172, 172, 172);
+  box-shadow: 10px 10px 10px ;
 }
 .producuts div {
   background: #979797;
   height: auto;
   width: auto;
-  padding: 20px;
+  padding: 10px;
   font-size: smaller;
   border: solid black 1px;
   display: inline-block;
   margin: 10px;
   margin-bottom: 50px;
+  border-radius: 5px;
+    box-shadow: 10px 10px 10px ;
 }
 .pimg {
   height: 90px;
+  border-radius: 10px;
+    box-shadow: 10px 10px 10px ;
 }
