@@ -68,7 +68,12 @@ ul li a:hover {
   margin: 10px;
   margin-bottom: 50px;
   border-radius: 5px;
-  box-shadow: 0px 0px 5cap 5px;
+  box-shadow: 0px 0px 50px 5px;
+  cursor: default
+  ;
+}
+.productsPage:hover {
+  transition-duration: 1s;
 }
 .pimg {
   height: 90px;
